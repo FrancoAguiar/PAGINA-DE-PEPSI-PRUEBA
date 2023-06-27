@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  background: white;
+}
+
+/* ESTILO DEL HEADER */
+
+header,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 25px;
+}
+
+.textoHeader,
+li {
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.textoHeader {
+  font-family: Gill Sans MT;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+.textoHeader,
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.logoPepsi {
+  position: absolute;
+  width: 62px;
+  height: auto;
+  left: 55px;
+  transition: transform 0.8s ease;
+}
+
+
+.logoPepsi:hover {
+  transform: rotate(360deg);
+}
+
+/*SECCION DE DIV CON LAS LATAS ADENTRO*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  height: 100%;
+}
+
+.grid-item,g1,g2,g3,g4,g5,g6,g7,g8,g9,g10,g11,g12 {
+  border: 0.1px solid #dfdfdf;
+  width: 100%;
+  height: 33.33vh;
+  padding: 30px;
+  text-align: center;
+  display: block;
+  overflow: hidden;
+  padding-top: 0px;
+  background-color: white;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+.grid-item:hover h1 {
+  color: #fff;
+}
+
+/*HOVER DE CADA SECCION CON COLORES*/
+
+.g1:hover {
+  background-color: #D2042D;
+}
+.g2:hover {
+  background-color: gray;
+}
+.g3:hover {
+  background-color: #004B93;
+}
+.g4:hover {
+  background-color: #ff7b00;
+}
+.g5:hover {
+  background-color: #ff7b00;
+}
+.g6:hover {
+  background-color: #b9b288;
+}
+.g7:hover {
+  background-color: #033768;
+}
+.g8:hover {
+  background-color: black;
+}
+.g9:hover {
+  background-color: #aa9d23;
+}
+.g10:hover {
+  background-color: grey;
+}
+.g11:hover {
+  background-color: #004B93;
+}
+.g12:hover {
+  background-color: rgb(197, 197, 197);
+}
+
+/* IMAGENES DE  CADA DIV Y H1*/
+
+.grid-item:hover img {
+  transform: rotate(5deg);
+}
+
+.grid-item img {
+  max-width: 100%;
+  max-height: 130%;
+  object-fit: contain;
+  transition: transform 0.5s;
+}
+
+
+.grid-item h1 {
+  margin: 5px;
+  position: relative;
+  font-family: 'Gill Sans MT';
+  font-style: normal;
+  font-size: 12px;
+  line-height: 32px;
+  color: #000;
+  filter: drop-shadow(-10px 9px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* /////////////////////////////////// */

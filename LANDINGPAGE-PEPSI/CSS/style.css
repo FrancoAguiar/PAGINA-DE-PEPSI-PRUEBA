@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(270.19deg, #005CB4 47.8%, #003264 106.26%);
+}
+
+/* ESTILO DEL HEADER */
+
+header,
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.textoHeader,
+li {
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.textoHeader {
+    font-family: Gill Sans MT;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+
+.textoHeader,
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logoPepsi {
+    position: absolute;
+    width: 62px;
+    height: auto;
+    left: 55px;
+    transition: transform 0.8s ease;
+}
+
+
+
+
+.logoPepsi:hover {
+    transform: rotate(360deg);
+}
+
+/*SECTION DE FRASES*/
+
+.textoFrase {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    margin-left: 6%;
+}
+
+.container-texto {
+    padding-top: 10%;
+    max-width: 60%;
+}
+
+
+.container-texto h2 {
+    font-family: 'Gill Sans MT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 180%;
+    line-height: 150%;
+    color: #FFFFFF;
+    filter: drop-shadow(-29px 9px 4px rgba(0, 0, 0, 0.25));
+    margin-top: 10px;
+}
+
+.container-texto h1 {
+    font-family: 'Gasoek One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 440%;
+    line-height: 100%;
+    letter-spacing: 4px;
+    color: #FFFFFF;
+    filter: drop-shadow(-29px 9px 4px rgba(0, 0, 0, 0.25));
+}
+
+/* .container-texto {
+    position: relative;
+    max-width: 10%;
+} */
+
+/*LATA DE PEPSI*/
+
+.lataPepsi {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    left: 70%;
+    top: 20%;
+    filter: drop-shadow(-46px 35px 6px rgba(0, 0, 0, 0.25));
+    transition: transform 0.3s ease;
+}
+
+
+.lataPepsi:hover {
+    transform: translateY(-10px);
+}
+
+
+.imagenlata {
+    width: 90%;
+    height: auto;
+}
+
+
+
+.button-textoFrase {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 60px;
+    width: 30%;
+    height: 20%;
+    background: #FF1737;
+    box-shadow: -29px 9px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    margin-top: 20px;
+    font-family: 'Gill Sans MT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 46px;
+    color: #FFFFFF;
+    transition: background-color 0.3s ease;
+}
+
+.button-textoFrase i {
+    padding-left: 15px;
+}
+
+.button-textoFrase:hover {
+    background-color: #f10000;
+}
